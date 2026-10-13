@@ -1,7 +1,94 @@
 # Explainable Financial Sentiment Analysis Using FinBERT and SHAP
-## Milestone 1 Working Prototype
 
-Production-quality working prototype for financial document text extraction, chunking, FinBERT sentiment inference, and interactive visualization via Streamlit.
+[![Python](https://img.shields.io/badge/Python-3.11-blue)]
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-red)]
+[![Transformers](https://img.shields.io/badge/HuggingFace-FinBERT-yellow)]
+[![SHAP](https://img.shields.io/badge/XAI-SHAP-green)]
+
+An Explainable AI-powered Financial NLP system that analyzes annual reports, earnings reports, risk disclosures, and other financial documents using FinBERT while providing transparent model explanations through SHAP.
+
+---
+
+## Author
+
+### Janhavi Badgujar
+Final Year B.Tech (Artificial Intelligence & Machine Learning)
+
+Primary Author, System Designer, Developer, and Research Contributor
+
+### Contributions
+- Financial NLP Pipeline Design
+- FinBERT Integration
+- SHAP Explainability Framework
+- PDF Processing Pipeline
+- Section-Level Risk Analysis
+- Streamlit Dashboard Development
+- Data Aggregation & Visualization
+- Testing and Validation
+
+---
+
+## Project Overview
+
+Financial reports often contain hundreds of pages of information that are difficult to analyze manually.
+
+This project automates financial document analysis by:
+
+- Extracting text from PDF reports
+- Identifying document sections
+- Performing sentiment analysis using FinBERT
+- Detecting high-risk financial disclosures
+- Generating document-level insights
+- Explaining predictions using SHAP
+- Presenting results through an interactive dashboard
+
+---
+
+## System Architecture
+
+PDF Upload
+↓
+Text Extraction (PyMuPDF)
+↓
+Section Detection
+↓
+Smart Chunking
+↓
+FinBERT Sentiment Analysis
+↓
+Risk Assessment
+↓
+Document Aggregation
+↓
+SHAP Explainability
+↓
+Interactive Dashboard
+
+---
+
+## Features
+
+✔ Financial Document Analysis
+
+✔ FinBERT Sentiment Classification
+
+✔ Section-wise Sentiment Analysis
+
+✔ Risk Detection Framework
+
+✔ Explainable AI using SHAP
+
+✔ PDF Processing Pipeline
+
+✔ Interactive Streamlit Dashboard
+
+✔ Financial Insight Generation
+
+✔ Annual Report Analysis
+
+✔ Earnings Report Analysis
+
+✔ Auditor Report Analysis
 
 ---
 
